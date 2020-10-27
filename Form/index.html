@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="regform"><h1>FORM REGISTRATION</h1></div>
+	<div class="main">
+		<form>
+			<div id="name">
+				<h2 class="name">NAME</h2>
+				<input class="firstname" type="text" name="first_name"></br>
+				<label class="firstlabel"> First Name</label>
+				<input class="lastname" type="text" name="last_name">
+				<label class="lastlabel"> Last Name</label>
+			</div>
+		<h2 class="name">DATE OF BIRTH</h2>
+		<input class="date" type="date" name="date">
+
+		<h2 class="name">Addres</h2>
+		<input class="addres" type="text" name="addres"></br>
+
+		<h2 class="name"></h2>
+		<input class="city" type="text" name="area_city">
+		<label class="area-city">CITY</label>
+		<input class="province" type="text" name="province">
+		<label class="province-city">PROVINCE/STATE</label>
+
+		<h2 class="name"></h2>
+		<input class="zipcode" type="text" name="zip-code">
+		<label class="zip-code">ZIP CODE</label>
+		<input class="country" type="text" name="country-area">
+		<label class="country-area">COUNTRY</label>
+
+
+		<h2 class="name">Email</h2>
+		<input class="email" type="text" name="email">
+
+		<h2 class="name">Phone</h2>
+		<input class="code" type="text" name="area_code">
+		<label class="area-code">Area Code</label>
+		<input class="number" type="text" name="phone">
+		<label class="phone-number">Phone Number</label>
+
+		<h2 class="name">MEMBERSHIP TYPE</h2>
+		<select class="option" name="subject">
+			<option disabled="disabled" selected="selected">---Choose Option----</option>
+			<option>Reguler</option>
+			<option>Premium</option>
+			<option>VIP</option>
+		</select>
+
+		<h2 id="student" class="student"> PAYMENT DETAILS</h2>
+
+		<label class="radio">
+			<input class="radio-one" type="radio" name="radio">
+			<span class="checkmark"></span>
+			OVO
+		</label>
+		<label class="radio">
+			<input class="radio-two" type="radio" name="radio">
+			<span class="checkmark"></span>
+			GOPAY
+		</label>
+		<label class="radio">
+			<input class="radio-three" type="radio"name="radio">
+			<span class="checkmark"></span>
+			ATM
+		</label>
+		<button type="submit">Register</button>
+		</form>
+	</div>
+</body>
+</html>
